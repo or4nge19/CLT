@@ -40,6 +40,7 @@ ProbabilityTheory.isGaussian_conv
 MeasureTheory.iteratedDeriv_charFun
 taylor_isLittleO
 ProbabilityTheory.iIndepFun_iff_map_fun_eq_pi_map
+MeasureTheory.taylorWithinEval_charFun_zero
 MeasureTheory.taylor_charFun_two
 tendsto_pow_exp_of_isLittleO
 ProbabilityTheory.central_limit

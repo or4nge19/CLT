@@ -35,7 +35,7 @@ Then $S$ is tight iff for all $y \in E$, $\lim_{r \to +\infty}\sup_{\mu \in S} \
 \begin{lemma}\label{lem:isTightMeasureSet_iff_basis}
 \uses{def:tight}
 \leanok
-\lean{isTightMeasureSet_iff_tendsto_limsup_inner}
+\lean{MeasureTheory.isTightMeasureSet_range_iff_tendsto_limsup_inner}
 Let $(\mu_n)_{n \in \mathbb{N}}$ be a sequence of measures on a finite-dimensional inner product space $E$. 
 Then the set $\{\mu_n \mid n \in \mathbb{N}\}$ is tight iff for all $y \in E$, $\lim_{r \to +\infty}\limsup_{n \to \infty} \mu_n\{\vert\langle y, x\rangle\vert > r\} = 0$.
 \end{lemma}
